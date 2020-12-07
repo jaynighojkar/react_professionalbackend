@@ -1,14 +1,9 @@
+import { LogManager } from "./common";
+
 class MainClass {​​​​
-
     static main(): void {​​​​
-
         // tslint:disable-next-line:no-console
-        console.info("Welcome to the World of MERN!");
-
+        LogManager.info("Welcome to the World of MERN!");
     }​​​​
-
 }​​​​
-
-
-
 MainClass.main();
