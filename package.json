@@ -1,0 +1,24 @@
+{
+  "name": "react_professionalbackend",
+  "version": "1.0.0",
+  "description": "This is simple CRM application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaynighojkar/react_professionalbackend.git"
+  },
+  "keywords": [
+    "customer",
+    "react",
+    "backend"
+  ],
+  "author": "Jay Nighojkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaynighojkar/react_professionalbackend/issues"
+  },
+  "homepage": "https://github.com/jaynighojkar/react_professionalbackend#readme"
+}
