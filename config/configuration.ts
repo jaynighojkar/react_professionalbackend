@@ -3,7 +3,7 @@ const DEFAULT_MONGO_SERVER = "localhost";
 // tslint:disable-next-line:typedef
 const DEFAULT_MONGO_PORT = 27017;
 // tslint:disable-next-line:typedef
-const DEFAULT_MONGO_DB = "reacttrainingdb";
+const DEFAULT_MONGO_DB = "mstrainingdb";
 
 class Configuration {
     // tslint:disable-next-line:typedef
@@ -20,11 +20,12 @@ class Configuration {
             const mongoDbName = process.env.MONGO_DB || DEFAULT_MONGO_DB;
 
             connectionString = `mongodb://${mongoServer}:${mongoPort}/${mongoDbName}`;
+            console.info(process.env.MONGO_DB);
         }
 
         // tslint:disable-next-line:typedef
         const settings = {
-            getConnectionString: () => connectionString
+            getConnectionString: () => connectionString    
         };
 
         return settings;
